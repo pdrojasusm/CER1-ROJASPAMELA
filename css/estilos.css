@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEC7F1;
+    font-family: 'EB Garamond', serif;
+}
+
+.bg-menu{
+    background-color: #581845;
+}
+
+#logo{
+    background-image: url(../img/image.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+nav{
+    margin-right: 1vw;
+}
+
+#title{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Rubik Dirt', cursive;
+}
+
+#espacio{
+    height: 15vh;
+}
+
+address{
+    margin-left: 1vw;
+}
+
+#social ul li{
+    float: left;
+    list-style: none;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+#social a{
+    color: #FFF;
+    font-size: 20px;
+}
+
+#social a:hover{
+    color: #333;
+    font-size: 20px;
+}
+
+#body2{
+    margin-top: 1vh;
+}
+
+.accordion{
+    width: 80vw;
+}
+
+.card-body{
+    width: 300px;
+}
+
+#cand1{
+    background-image: url(../img/gato1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#cand2{
+    background-image: url(../img/gato2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#cand3{
+    background-image: url(../img/gato3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#cand4{
+    background-image: url(../img/gato4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#cand5{
+    background-image: url(../img/gato5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#cand6{
+    background-image: url(../img/gato6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#cand7{
+    background-image: url(../img/gato7.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#cand8{
+    background-image: url(../img/gato8.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#pcand1{
+    background-image: url(../img/perro8.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#pcand2{
+    background-image: url(../img/perro7.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#pcand3{
+    background-image: url(../img/perro6.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+#pcand4{
+    background-image: url(../img/perro5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 1vh;
+}
+
+.btn{
+    background-color: #581845;
+    border-color: #000;
+}
+
+.pagination a{
+    color: #581845;
+    font-size: 20px;
+}
+
+.pagination a:hover{
+    color: #333;
+    font-size: 20px;
+}
+
+#formcontacto{
+    margin-top: 1vh;
+    width: 80vw;
+}

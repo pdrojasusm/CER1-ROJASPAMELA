@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Patitas</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="menu" class="row bg-menu">
+        <div id="logo" class="col-5 col-xs-4 col-sm-4 col-md-5 col-lg-4 col-xl-3 col-xxl-3"></div>
+        <div class="col-1 col-xs-0 col-sm-0 col-md-1 col-lg-0 col-xl-1 col-xxl-1"></div>
+        <div class="col-6 col-xs-8 col-sm-8 col-md-6 col-lg-8 col-xl-8 col-xxl-8">
+            <nav class="navbar navbar-expand-lg bg-top float-end">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a href="index.html" class="nav-link text-light">Inicio</a></li>
+                            <li class="nav-item"><a href="QuienesSomos.html" class="nav-link text-light">Quiénes Somos</a></li>
+                            <li class="nav-item"><a href="Gato1.html" class="nav-link text-light">Gatos</a></li>
+                            <li class="nav-item"><a href="Perro.html" class="nav-link text-light">Perros</a></li>
+                            <li class="nav-item"><a href="Contacto.html" class="nav-link text-light">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="formcontacto" class="container-fluid">
+        <form>
+            <h3 class="text-center">Formulario de Contacto</h3>
+            <div class="mb-3">
+              <label for="InputName" class="form-label">Nombre y Apellido</label>
+              <input type="email" class="form-control" id="InputName">
+            </div>
+            <div class="mb-3">
+                <label for="InputCorreo" class="form-label">Email</label>
+                <input type="email" class="form-control" id="InputCorreo">
+            </div>
+            <div class="mb-3">
+                <label for="InputMotivo" class="form-label">Motivo del Mensaje</label>
+                <select id="OptionsSelect" class="form-select">
+                    <option>Voluntariado</option>
+                    <option>Donaciones</option>
+                    <option>Visitas al recinto</option>
+                    <option>Adopción</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Escribe tu Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <div class="modal fade" id="modelmensaje" aria-hidden="true" aria-labelledby="modelmensajelabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modelmensajelabel">Mensaje</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        El mensaje fue enviado con éxito.
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-primary" data-bs-toggle="modal" href="#modelmensaje" role="button">Enviar</a>
+        </form>
+    </div>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Patitas</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="menu" class="row bg-menu">
+    <div id="logo" class="col-6 col-sm-4 col-md-5 col-xl-3"></div>
+    <div class="col-4 col-md-1 col-xl-1"></div>
+    <div class="col-2 col-sm-8 col-md-6 col-xl-6">
+        <nav class="navbar navbar-expand-lg bg-top float-end">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="index.html" class="nav-link text-light">Inicio</a></li>
+                        <li class="nav-item"><a href="QuienesSomos.html" class="nav-link text-light">Quiénes Somos</a></li>
+                        <li class="nav-item"><a href="Gato1.html" class="nav-link text-light">Gatos</a></li>
+                        <li class="nav-item"><a href="Perro.html" class="nav-link text-light">Perros</a></li>
+                        <li class="nav-item"><a href="Contacto.html" class="nav-link text-light">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+  </div>
+    <div id="title" class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-8 col-md-8 col-lg-9 col-xl-10 col-xxl-10"><h1>Centro Patitas</h1></div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <div class="modal fade" id="modelinvitation" aria-hidden="true" aria-labelledby="modelinvitationlabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="modelinvitationlabel">Invitación</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Por estos días tendremos un recorrido por el centro y un encuentro con los pequeños. <br> Lunes a Sábado de 13:00-18:00 hrs.
+                          </div>
+                          <div class="modal-footer"></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-primary" data-bs-toggle="modal" href="#modelinvitation" role="button">Evento</a>
+            </div>
+        </div>  
+    </div>
+    <div id="centroimages" class="container">
+        <div id="caruselimagenes" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#caruselimagenes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#caruselimagenes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#caruselimagenes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/perrosygatos.jpg" class="d-block w-100" alt="Algunos perros y gatos del centro Patitas">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/gatos1.jpg" class="d-block w-100" alt="Sección de ocio para los felinos">
+              </div>
+              <div class="carousel-item">
+                <img src="img/perros1.jpg" class="d-block w-100" alt="Sección de ocio para los caninos">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#caruselimagenes" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#caruselimagenes" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div id="espacio" class="row"></div>
+    <div id="footer" class="row bg-menu text-light text-center fixed-bottom">
+        <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 col-xxl-4">
+            <address>
+                <strong>Lorem Ipsum</strong><br>
+                Dolor St, 900 Amet
+            </address>
+        </div>
+        <div class="col-xs-5 col-sm-4 col-md-5 col-lg-5 col-xl-7 col-xxl-3"></div>
+        <div id="social" class="col-xs-4 col-sm-5 col-md-4 col-lg-5 col-xl-3 col-xxl-5">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
